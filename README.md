@@ -1,16 +1,65 @@
-# React + Vite
+🏠 Home Service Booking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Home Service Booking Web Application UI built using React, Vite, and Tailwind CSS.
+This project allows users to browse service providers, view provider details, select booking time slots, and manage bookings through a personal dashboard.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features:
 
-## React Compiler
+👤 Authentication
+Demo login system with hardcoded credentials
+Session persistence using localStorage
+Logout functionality
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔍 Service Providers
+Browse service providers
+Filter by:
 
-## Expanding the ESLint configuration
+Role
+Location
+Rating
+Price
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pagination for provider listings
+
+📄 Provider Details Page
+View provider profile
+Select service date using calendar
+Choose available time slots
+Automatic disabling of past time slots
+Enter service address
+Dynamic price calculation
+
+📅 Booking System
+Confirm service booking
+Booking stored in localStorage
+Prevent booking without login
+
+📊 User Dashboard
+Upcoming bookings
+Past bookings
+Booking details display
+Contact information of service provider
+Logout functionality
+
+📱 Responsive UI
+Mobile-friendly design
+Clean modern layout using Tailwind CSS
+
+🛠️ Technologies Used
+Technology	Purpose
+React.js	Frontend framework
+Vite	Fast development environment
+React Router	Page routing
+Tailwind CSS	Styling
+React Icons	UI icons
+React Datepicker	Calendar component
+LocalStorage	Simulated data storage
+
+🔑 Demo Login Credentials
+
+Username:
+admin
+
+Password:
+12345
