@@ -14,6 +14,7 @@ Session persistence using localStorage
 
 Logout functionality
 
+
 🔍 Service Providers:
 
 Browse service providers
@@ -26,6 +27,7 @@ Rating,
 Price
 
 Pagination for provider listings
+
 
 📄 Provider Details Page:
 
@@ -41,6 +43,7 @@ Enter service address,
 
 Dynamic price calculation
 
+
 📅 Booking System:
 
 Confirm service booking,
@@ -48,6 +51,7 @@ Confirm service booking,
 Booking stored in localStorage,
 
 Prevent booking without login
+
 
 📊 User Dashboard:
 
@@ -61,11 +65,13 @@ Contact information of service provider,
 
 Logout functionality
 
+
 📱 Responsive UI:
 
 Mobile-friendly design,
 
 Clean modern layout using Tailwind CSS
+
 
 🛠️ Technologies Used:
 
@@ -84,6 +90,7 @@ React Icons	UI icons
 React Datepicker	Calendar component
 
 LocalStorage	Simulated data storage
+
 
 🔑 Demo Login Credentials
 
