@@ -1,0 +1,36 @@
+.react-datepicker {
+  width: 100% !important;
+  border: none !important;
+}
+
+.react-datepicker__month-container {
+  width: 100% !important;
+}
+
+.react-datepicker__month {
+  width: 100% !important;
+}
+
+/* HEADER ROW (Su Mo Tu...) */
+.react-datepicker__day-names {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+/* DAYS ROW */
+.react-datepicker__week {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+/* HEADER TEXT */
+.react-datepicker__day-name {
+  flex: 1 !important;
+  text-align: center !important;
+}
+
+/* DAYS */
+.react-datepicker__day {
+  flex: 1 !important;
+  text-align: center !important;
+}
